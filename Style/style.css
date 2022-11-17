@@ -122,8 +122,22 @@ body {
     align-self: center;
     margin-top: 1rem;
   }
+  .title, .tasks {
+    align-self: center;
+  }
   #newTask {
     width: 90vw;
+    align-self: center;
+  }
+  #newTask .newDiv {
+    flex-direction: column;
+    gap: 0;
+  }
+  #newTask p {
+    width: 100%;
+  }
+  #newTask button {
+    margin-top: 1rem;
     align-self: center;
   }
 }/*# sourceMappingURL=style.css.map */

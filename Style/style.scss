@@ -131,8 +131,25 @@ body {
     margin-top: 1rem;
   }
 
+  .title, .tasks{
+    align-self: center;
+  }
+
   #newTask {
     width: 90vw;
     align-self: center;
+
+    
+  .newDiv{
+    flex-direction: column;
+    gap: 0;
+  }
+  p{
+    width: 100%;
+  }
+        button{
+            margin-top: 1rem;
+        align-self: center;
+    }
   }
 }
